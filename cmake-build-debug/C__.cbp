@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/s19017/Desktop/C++/Class.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="C:/Users/s19017/Desktop/C++/Class.h">
+			<Option target="C__"/>
+		</Unit>
 		<Unit filename="C:/Users/s19017/Desktop/C++/main.cpp">
 			<Option target="C__"/>
 		</Unit>

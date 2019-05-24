@@ -77,17 +77,38 @@ CMakeFiles\C__.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\C__.dir\main.cpp.s /c C:\Users\s19017\Desktop\C++\main.cpp
 <<
 
+CMakeFiles\C__.dir\Class.cpp.obj: CMakeFiles\C__.dir\flags.make
+CMakeFiles\C__.dir\Class.cpp.obj: ..\Class.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\s19017\Desktop\C++\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/C__.dir/Class.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2017\ENTERP~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\C__.dir\Class.cpp.obj /FdCMakeFiles\C__.dir\ /FS -c C:\Users\s19017\Desktop\C++\Class.cpp
+<<
+
+CMakeFiles\C__.dir\Class.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__.dir/Class.cpp.i"
+	C:\PROGRA~2\MICROS~1\2017\ENTERP~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\C__.dir\Class.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s19017\Desktop\C++\Class.cpp
+<<
+
+CMakeFiles\C__.dir\Class.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__.dir/Class.cpp.s"
+	C:\PROGRA~2\MICROS~1\2017\ENTERP~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\C__.dir\Class.cpp.s /c C:\Users\s19017\Desktop\C++\Class.cpp
+<<
+
 # Object files for target C__
 C___OBJECTS = \
-"CMakeFiles\C__.dir\main.cpp.obj"
+"CMakeFiles\C__.dir\main.cpp.obj" \
+"CMakeFiles\C__.dir\Class.cpp.obj"
 
 # External object files for target C__
 C___EXTERNAL_OBJECTS =
 
 C__.exe: CMakeFiles\C__.dir\main.cpp.obj
+C__.exe: CMakeFiles\C__.dir\Class.cpp.obj
 C__.exe: CMakeFiles\C__.dir\build.make
 C__.exe: CMakeFiles\C__.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\s19017\Desktop\C++\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable C__.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\s19017\Desktop\C++\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable C__.exe"
 	"C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\C__.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\ENTERP~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\C__.dir\objects1.rsp @<<
  /out:C__.exe /implib:C__.lib /pdb:C:\Users\s19017\Desktop\C++\cmake-build-debug\C__.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

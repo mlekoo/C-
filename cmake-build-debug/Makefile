@@ -124,6 +124,33 @@ C__\fast:
 	$(MAKE) -f CMakeFiles\C__.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__.dir\build
 .PHONY : C__\fast
 
+Class.obj: Class.cpp.obj
+
+.PHONY : Class.obj
+
+# target to build an object file
+Class.cpp.obj:
+	$(MAKE) -f CMakeFiles\C__.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__.dir\Class.cpp.obj
+.PHONY : Class.cpp.obj
+
+Class.i: Class.cpp.i
+
+.PHONY : Class.i
+
+# target to preprocess a source file
+Class.cpp.i:
+	$(MAKE) -f CMakeFiles\C__.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__.dir\Class.cpp.i
+.PHONY : Class.cpp.i
+
+Class.s: Class.cpp.s
+
+.PHONY : Class.s
+
+# target to generate assembly for a file
+Class.cpp.s:
+	$(MAKE) -f CMakeFiles\C__.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__.dir\Class.cpp.s
+.PHONY : Class.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -160,6 +187,9 @@ help:
 	@echo ... edit_cache
 	@echo ... C__
 	@echo ... rebuild_cache
+	@echo ... Class.obj
+	@echo ... Class.i
+	@echo ... Class.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
